@@ -1,0 +1,33 @@
+@import "../../../style/colors";
+@import "../../../style/responsive";
+
+:host {
+    grid-area: header;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+    background: #111;
+
+    .title {
+        font-size: 3rem;
+        font-weight: bold;
+        padding: .75rem;
+        border-radius: 0.5rem;
+        color: #f44242;
+
+        h1 {
+            margin: 0;
+        }
+
+        .second-part {
+            color: #fff;
+        }
+    }
+
+    .account-section {
+
+    }
+}
